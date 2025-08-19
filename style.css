@@ -1,7 +1,12 @@
+/* Corpo da página */
 body {
     background-color: red;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Título principal */
 h1 {
     text-align: center;
     font-size: 3rem;
@@ -15,27 +20,46 @@ h1 {
     border-radius: 12px;
     max-width: 1200px;
     margin: 20px auto;
+    padding: 20px;
 }
 
-/* Estilizando a seção da galeria */
+/* Galeria de imagens */
 .Galeria-imagem {
-    text-align: center;       /* Centraliza o conteúdo */
-    background-color: #f4f4f4; /* Fundo cinza claro */
-    padding: 20px;            /* Espaçamento interno */
-    border-radius: 12px;      /* Bordas arredondadas */
-    max-width: 1200px;         /* Largura máxima da seção */
-    margin: 20px auto;        /* Centraliza a seção na tela */
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-/* Estilizando a imagem dentro da galeria */
 .Galeria-imagem img {
-    width: 300px;             /* Define largura fixa */
-    border-radius: 8px;       /* Bordas arredondadas na imagem */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
-    transition: transform 0.3s ease;       /* Animação suave */
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 }
 
-/* Efeito ao passar o mouse na imagem */
 .Galeria-imagem img:hover {
-    transform: scale(1.05);   /* Dá zoom leve na imagem */
+    transform: scale(1.05);
+}
+
+/* Container para os dois retângulos lado a lado */
+.container-vertical-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+/* Estilo dos retângulos */
+.vertical, .vertical2 {
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    width: 48%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
