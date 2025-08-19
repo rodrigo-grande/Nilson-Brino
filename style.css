@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    min-height: 1000px;
+    min-height: 700px;
 }
 
 /* Título principal */
@@ -53,6 +53,7 @@ h1 {
     left: 0;
     bottom: 0;            /* vai até a parte de baixo da página */
     width: 100px;
+    min-height: 700px;
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px;
@@ -68,6 +69,7 @@ h1 {
     right: 0;
     bottom: 0;            /* vai até a parte de baixo da página */
     width: 100px;
+    min-height: 700px;
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px;
