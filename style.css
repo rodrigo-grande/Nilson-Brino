@@ -15,10 +15,10 @@ h1 {
 }
 
 .caixa-texto {
-    background-color: blueviolet;
-    border: 2px solid red;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid rgb(0, 0, 0);
     border-radius: 12px;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
 }
