@@ -48,7 +48,6 @@ h1 {
 
 /* Retângulo vertical esquerdo */
 .retangulo-esquerdo {
-    position: fixed;      /* Fixa na tela */
     top: 0;
     left: 0;              /* Colado na esquerda */
     width: 100px;         /* Largura do retângulo */
@@ -63,7 +62,6 @@ h1 {
 
 /* Retângulo vertical direito */
 .retangulo-direito {
-    position: fixed;
     top: 0;
     right: 0;             /* Colado na direita */
     width: 100px;
