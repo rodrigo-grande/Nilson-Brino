@@ -1,3 +1,11 @@
+body {
+background-image:url(Logo\ flakes.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
 /* Estilizando a seção da galeria */
 .Galeria-imagem {
     text-align: center;       /* Centraliza o conteúdo */
