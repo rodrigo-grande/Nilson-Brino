@@ -82,6 +82,7 @@ h1 {
     border: 6px solid rgb(0, 0, 0);
     border-radius: 30px;
     max-width: 1100px;
+    bottom: 0;
     margin: 20px auto;
     padding: 20px;
 }
