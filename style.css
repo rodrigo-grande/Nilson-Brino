@@ -9,9 +9,13 @@ h1 {
     color: blueviolet;
 }
 
-
-
-
+.caixa-texto {
+    background-color: blueviolet;
+    border: 2px solid red;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
 
 /* Estilizando a seção da galeria */
 .Galeria-imagem {
