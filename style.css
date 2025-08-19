@@ -1,5 +1,5 @@
 /* Estilizando a seção da galeria */
-.galeria-imagem {
+.Galeria-imagem {
     text-align: center;       /* Centraliza o conteúdo */
     background-color: #f4f4f4; /* Fundo cinza claro */
     padding: 20px;            /* Espaçamento interno */
@@ -9,7 +9,7 @@
 }
 
 /* Estilizando a imagem dentro da galeria */
-.galeria-imagem img {
+.Galeria-imagem img {
     width: 300px;             /* Define largura fixa */
     border-radius: 8px;       /* Bordas arredondadas na imagem */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra suave */
@@ -17,6 +17,6 @@
 }
 
 /* Efeito ao passar o mouse na imagem */
-.galeria-imagem img:hover {
+.Galeria-imagem img:hover {
     transform: scale(1.05);   /* Dá zoom leve na imagem */
 }
