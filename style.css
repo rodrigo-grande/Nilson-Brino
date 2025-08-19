@@ -48,13 +48,13 @@ h1 {
 
 /* Retângulo vertical esquerdo */
 .retangulo-esquerdo {
-    position: fixed;      /* Fixa na tela */
+    position: fixed;      /* fica preso na tela */
     top: 0;
-    left: 0;              /* Colado na esquerda */
-    width: 100px;         /* Largura do retângulo */
-    height: 100vh;        /* Altura total da tela */
+    left: 0;
+    bottom: 0;            /* vai até a parte de baixo da página */
+    width: 100px;
     background-color: rgb(255, 255, 255);
-    color: white;
+    color: black;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 30px;
@@ -65,13 +65,14 @@ h1 {
 .retangulo-direito {
     position: fixed;
     top: 0;
-    right: 0;             /* Colado na direita */
+    right: 0;
+    bottom: 0;            /* vai até a parte de baixo da página */
     width: 100px;
-    height: 100vh;
     background-color: rgb(255, 255, 255);
-    color: white;
+    color: black;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 30px;
     border: 6px solid black;
 }
+
