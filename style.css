@@ -70,12 +70,12 @@ position: absolute;
     left: 83%;
     bottom: 0;           
     width: 200px;
-    min-height: 500px;
+    min-height: 550px;
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px;
     box-sizing: border-box;
-    border-radius: 30px;
+    border-radius: 50px;
     border: 6px solid black;
 }
 
@@ -86,12 +86,12 @@ position: absolute;
     right: 83%;
     bottom: 0;            
     width: 200px;
-    min-height: 500px;
+    min-height: 550px;
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px;
     box-sizing: border-box;
-    border-radius: 30px;
+    border-radius: 50px;
     border: 6px solid black;
 }
 .retangulo-meio {
