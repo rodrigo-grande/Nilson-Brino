@@ -20,7 +20,7 @@ h1 {
     border: 6px solid rgb(0, 0, 0);
     border-radius: 30px;
     max-width: 2500px;
-    height: 200px;
+    min-width: 150;
     top: 0%;
     padding: 20px;
 }
