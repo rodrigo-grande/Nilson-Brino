@@ -52,8 +52,8 @@ h1 {
     top: 0;
     left: 0;
     bottom: 0;            /* vai até a parte de baixo da página */
-    width: 100px;
-    min-height: 700px;
+    width: 200px;
+    min-height: 500px;
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px;
@@ -68,8 +68,8 @@ h1 {
     top: 0;
     right: 0;
     bottom: 0;            /* vai até a parte de baixo da página */
-    width: 100px;
-    min-height: 700px;
+    width: 200px;
+    min-height: 500px;
     background-color: rgb(255, 255, 255);
     color: black;
     padding: 20px;
