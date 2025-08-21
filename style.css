@@ -95,7 +95,7 @@ position: absolute;
 }
 .retangulo-meio {
     position: absolute;
-    bottom: 20%;
+    bottom: 80%;
     left: 50%;
     transform: translate(-50%, -50%); 
     
