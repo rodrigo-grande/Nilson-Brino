@@ -65,7 +65,7 @@ position: absolute;
 .retangulo-esquerdo {
     position: absolute;      /* fica preso na tela */
     top: 30%;
-    left: 90%;
+    left: 100%;
     bottom: 0;            /* vai até a parte de baixo da página */
     width: 200px;
     min-height: 500px;
@@ -81,7 +81,7 @@ position: absolute;
 .retangulo-direito {
     position: absolute;
     top: 30%;
-    right: 90%;
+    right: 100%;
     bottom: 0;            /* vai até a parte de baixo da página */
     width: 200px;
     min-height: 500px;
