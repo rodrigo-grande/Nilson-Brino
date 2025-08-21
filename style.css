@@ -23,10 +23,12 @@ h1 {
     padding: 20px;
     box-sizing: border-box;
 
-    display: flex;                 
-    justify-content: flex-end;    
-    align-items: center;          
-    gap: 40px;                    
+    margin: 0 auto;              
+    
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;
+    gap: 40px;
 }
 
 .retangulo-menor {
