@@ -1,4 +1,4 @@
-/* Corpo da página */
+
 body {
     background-color: red;
     font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
     min-height: 700px;
 }
 
-/* Título principal */
+
 h1 {
     text-align: center;
     font-size: 3rem;
@@ -40,7 +40,7 @@ position: absolute;
     box-sizing: border-box;
 }
 
-/* Galeria de imagens */
+
 .Galeria-imagem {
     text-align: center;
     background-color: #f4f4f4;
@@ -62,12 +62,12 @@ position: absolute;
     transform: scale(1.05);
 }
 
-/* Retângulo vertical esquerdo */
+
 .retangulo-esquerdo {
-    position: absolute;      /* fica preso na tela */
+    position: absolute;      
     top: 30%;
     left: 85%;
-    bottom: 0;            /* vai até a parte de baixo da página */
+    bottom: 0;           
     width: 200px;
     min-height: 500px;
     background-color: rgb(255, 255, 255);
@@ -78,12 +78,12 @@ position: absolute;
     border: 6px solid black;
 }
 
-/* Retângulo vertical direito */
+
 .retangulo-direito {
     position: absolute;
     top: 30%;
     right: 85%;
-    bottom: 0;            /* vai até a parte de baixo da página */
+    bottom: 0;            
     width: 200px;
     min-height: 500px;
     background-color: rgb(255, 255, 255);
