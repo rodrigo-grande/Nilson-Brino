@@ -66,7 +66,7 @@ position: absolute;
 
 .retangulo-esquerdo {
     position: absolute;      
-    top: 30%;
+    top: 25%;
     left: 83%;
     bottom: 0;           
     width: 200px;
@@ -82,7 +82,7 @@ position: absolute;
 
 .retangulo-direito {
     position: absolute;
-    top: 30%;
+    top: 25%;
     right: 83%;
     bottom: 0;            
     width: 200px;
