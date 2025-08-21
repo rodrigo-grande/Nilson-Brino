@@ -23,8 +23,7 @@ h1 {
     background-color: #fff;
     border: 6px solid #000;
     border-radius: 30px;
-    width: 95%;                
-    max-width: 1200px;         
+    width: 100%;                      
     height: 100px;
     padding: 20px;
     box-sizing: border-box;
