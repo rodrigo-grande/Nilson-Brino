@@ -1,4 +1,3 @@
-
 body {
     background-color: red;
     font-family: Arial, sans-serif;
@@ -7,99 +6,84 @@ body {
     min-height: 700px;
 }
 
-
 h1 {
     text-align: center;
     font-size: 3rem;
-    margin: 20px 0;
+    margin: 0;
     color: rgb(0, 0, 0);
 }
 
+/* Caixa do título */
 .caixa-texto {
-    background-color: rgb(255, 255, 255);
-    border: 6px solid rgb(0, 0, 0);
+    background-color: #fff;
+    border: 6px solid #000;
     border-radius: 30px;
     max-width: 98%;
     height: 50px;
-    top: 0%;
     padding: 20px;
+    box-sizing: border-box;
 }
 
-.caixa-grande    {
-position: absolute;
+/* Caixa grande no fundo */
+.caixa-grande {
+    position: absolute;
     top: 65%;
     left: 50%;
-    transform: translate(-50%, -50%); 
-    
-    background-color: rgb(255, 0, 0);
+    transform: translate(-50%, -50%);
+    background-color: red;
     border: 6px solid black;
     border-radius: 20px;
     width: 98%;
-    bottom: 5%;
     height: 600px;
     padding: 20px;
     box-sizing: border-box;
 }
 
-
-.retangulo-direito {
-    text-align: center;
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 1200px;
-    margin: 20px auto;
-}
-
-.flakes{
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease;
-}
-
-.Galeria-imagem img:hover {
-    transform: scale(1.05);
-}
-
-
-.retangulo-esquerdo {
-    position: absolute;      
-    top: 20%;
-    left: 83%;
-    bottom: 0;           
-    width: 200px;
-    min-height: 550px;
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 50px;
-    border: 6px solid black;
-}
-
-
+/* Estilo comum para os retângulos laterais */
+.retangulo-esquerdo,
 .retangulo-direito {
     position: absolute;
     top: 20%;
-    right: 83%;
-    bottom: 0;            
     width: 200px;
     min-height: 550px;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     color: black;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 50px;
     border: 6px solid black;
+
+    display: flex;             /* deixa imagens centralizadas */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
+
+/* posição */
+.retangulo-esquerdo {
+    left: 83%;
+}
+
+.retangulo-direito {
+    right: 83%;
+}
+
+/* Todas as imagens ficam do mesmo tamanho */
+.retangulo-esquerdo img,
+.retangulo-direito img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* garante que a imagem não distorça */
+    border-radius: 15px;
+    margin: 5px 0;
+}
+
+/* Retângulo do meio */
 .retangulo-meio {
     position: absolute;
     top: 65%;
     left: 50%;
-    transform: translate(-50%, -50%); 
-    
+    transform: translate(-50%, -50%);
     background-color: white;
     border: 6px solid black;
     border-radius: 180px;
