@@ -16,14 +16,14 @@ h1 {
 
 .caixa-texto {
     position: absolute;        
-    top: 5%;                  
+    top: 0%;                  
     left: 50%;
     transform: translateX(-50%);  
 
     background-color: #fff;
     border: 6px solid #000;
     border-radius: 30px;
-    width: 90%;                
+    width: 95%;                
     max-width: 1200px;         
     height: 100px;
     padding: 20px;
