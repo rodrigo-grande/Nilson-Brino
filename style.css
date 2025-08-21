@@ -20,7 +20,7 @@ h1 {
     border: 6px solid rgb(0, 0, 0);
     border-radius: 30px;
     max-width: 2500px;
-    height: 75px;
+    height: 80px;
     top: 0%;
     padding: 20px;
 }
@@ -103,7 +103,7 @@ position: absolute;
     border: 6px solid black;
     border-radius: 120px;
     width: 1000px;
-    height: 400px;
+    height: 500px;
     padding: 20px;
     box-sizing: border-box;
 }
