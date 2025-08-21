@@ -15,20 +15,37 @@ h1 {
 
 
 .caixa-texto {
-    position: absolute;        
-    top: 0%;                  
-    left: 50%;
-    transform: translateX(-50%);  
-
     background-color: #fff;
     border: 6px solid #000;
     border-radius: 30px;
-    width: 100%;                      
-    height: 100px;
+    max-width: 98%;
+    height: 150px;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center;        
+
+    display: flex;                
+    justify-content: center;       
+    align-items: center;           
+    gap: 40px;                   
 }
+
+.retangulo-menor {
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px 40px;            
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;               
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.retangulo-menor:hover {
+    background-color: darkred;    
+    transform: scale(1.05);        
+}
+
 
 
 
