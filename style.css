@@ -79,13 +79,13 @@ h1 {
 }
 .retangulo-meio {
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%); 
     
     background-color: white;
     border: 6px solid black;
-    border-radius: 70px;
+    border-radius: 120px;
     width: 1000px;
     height: 400px;
     padding: 20px;
