@@ -24,6 +24,21 @@ h1 {
     padding: 20px;
 }
 
+.caixa-grande    {
+position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    
+    background-color: white;
+    border: 6px solid black;
+    border-radius: 120px;
+    width: 98%;
+    height: 700px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
 /* Galeria de imagens */
 .Galeria-imagem {
     text-align: center;
