@@ -25,12 +25,12 @@ body {
 
 .retangulo-menor {
     background-color: red;
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 180px;
     padding: 20px 40px;            
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;               
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
