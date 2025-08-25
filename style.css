@@ -34,7 +34,7 @@ h1 {
 .retangulo-menor {
     background-color: red;
     border: 3px solid black;
-    border-radius: 15px;
+    border-radius: 180px;
     padding: 20px 40px;            
     font-size: 1.5rem;
     font-weight: bold;
