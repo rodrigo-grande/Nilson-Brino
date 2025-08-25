@@ -111,3 +111,11 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
+.retangulo-meio img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover; 
+    border-radius: 15px;
+    margin: 5px 0;
+    border: 6px solid black;
+}
