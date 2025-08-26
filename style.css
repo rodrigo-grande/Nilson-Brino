@@ -139,7 +139,7 @@ body {
 }
 .img-caixa {
     width: 190px;          
-    height: 120px;
+    height: 90px;
     object-fit: cover;
     border-radius: 105px;
     border: 6px solid black;
