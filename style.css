@@ -137,4 +137,11 @@ body {
     margin: 5px 0;
     border: 6px solid black;
 }
+.img-caixa {
+    width: 120px;          /* mesmo tamanho das laterais */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 6px solid black;
+}
 
