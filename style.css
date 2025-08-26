@@ -39,13 +39,13 @@ body {
 
 
 .retangulo-menor {
-    background-color: red;
+    background-color: rgb(0, 98, 255);
     border: 5px solid black;
     border-radius: 180px;
     padding: 20px 40px;            
     font-size: 1.5rem;
     font-weight: bold;
-    color: rgb(0, 98, 255);
+    color: white;
     cursor: pointer;               
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
