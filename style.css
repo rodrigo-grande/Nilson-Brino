@@ -138,8 +138,8 @@ body {
     border: 6px solid black;
 }
 .img-caixa {
-    width: 120px;          /* mesmo tamanho das laterais */
-    height: 120px;
+    width: 90px;          /* mesmo tamanho das laterais */
+    height: 90px;
     object-fit: cover;
     border-radius: 15px;
     border: 6px solid black;
