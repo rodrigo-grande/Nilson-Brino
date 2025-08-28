@@ -11,7 +11,6 @@ body {
     min-height: 700px;
 }
 
-
 .caixa-texto {
     background-color: #fff;
     border: 6px solid #000;
@@ -35,7 +34,6 @@ body {
     font-weight: bold;
 }
 
-
 .retangulo-menor {
     background-color: rgb(0, 98, 255);
     border: 5px solid black;
@@ -54,8 +52,6 @@ body {
 }
 
 
-
-
 .caixa-grande {
     position: absolute;
     top: 65%;
@@ -69,7 +65,6 @@ body {
     padding: 20px;
     box-sizing: border-box;
 }
-
 
 .retangulo-esquerdo,
 .retangulo-direito {
@@ -90,7 +85,6 @@ body {
     justify-content: space-around;
 }
 
-
 .retangulo-esquerdo {
     left: 83%;
 }
@@ -98,7 +92,6 @@ body {
 .retangulo-direito {
     right: 83%;
 }
-
 
 .retangulo-esquerdo img,
 .retangulo-direito img {
@@ -109,7 +102,6 @@ body {
     margin: 5px 0;
     border: 6px solid black;
 }
-
 
 .retangulo-meio {
     position: absolute;
