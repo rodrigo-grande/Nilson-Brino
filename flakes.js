@@ -1,6 +1,9 @@
 
 const imagens = document.querySelectorAll("img");
 
+const botaoImagens = document.getElementById("Imagens");
+
+
 let trocou = false;
 
 document.body.addEventListener("click", () => {
