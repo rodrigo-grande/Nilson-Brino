@@ -6,7 +6,7 @@ const botaoImagens = document.getElementById("Imagens");
 
 let trocou = false;
 
-document.body.addEventListener("click", () => {
+botaoImagens.addEventListener("click", () => {
     if (!trocou) {
         imagens.forEach(img => {
             img.dataset.original = img.src;  
