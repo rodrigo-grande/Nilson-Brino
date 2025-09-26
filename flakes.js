@@ -1,25 +1,19 @@
-const container = document.getElementById('fotos');
-    const imagens = container.getElementsByTagName('img');
 
-    const fotosOriginais = ["flakes 2.webp", "flakes 3.webp", "flakes.webp","flakescalvo.jpeg","falkes.jpeg","flakesfalkes.jpeg"];
-    const novasFotos = ["dioni.jpg", "dioni.jpg", "dioni.jpg","dioni.jpg", "dioni.jpg", "dioni.jpg"];
-    
+const imagens = document.querySelectorAll("img");
 
+let trocou = false;
 
-
-
-    let trocou = false;
-
-    container.addEventListener('click', () => {
-        if (!trocou) {
-            for (let i = 0; i < imagens.length; i++) {
-                imagens[i].src = novasFotos[i];
-            }
-            trocou = true;
-        } else {
-            for (let i = 0; i < imagens.length; i++) {
-                imagens[i].src = fotosOriginais[i];
-            }
-            trocou = false;
-        }
-    });
+document.body.addEventListener("click", () => {
+    if (!trocou) {
+        imagens.forEach(img => {
+            img.dataset.original = img.src;  
+            img.src = "dioni.jpg";           
+        });
+        trocou = true;
+    } else {
+        imagens.forEach(img => {
+            img.src = img.dataset.original;  
+        });
+        trocou = false;
+    }
+});
