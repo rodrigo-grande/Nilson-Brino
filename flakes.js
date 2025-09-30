@@ -5,14 +5,14 @@ let trocou = false;
 
 
 const novasImagens = {
-    "flakes.webp": "dantes1.jpeg",
-    "flakes 2.webp": "dantes2.jpeg",
-    "flakes 3.webp": "dantes3.jpeg",
-    "falkes.jpeg": "dantes4.jpeg",
-    "flakescalvo.jpeg": "dantes5.jpeg",
-    "flakesfalkes.jpeg": "dantes6.jpeg",
-    "Logo flakes.jpg": "danteslogo.jpeg",
-    "flakescima.jpeg": "dantescima.jpeg"
+    "flakes.webp": "cbum1.jpeg",
+    "flakes 2.webp": "cbum2.jpeg",
+    "flakes 3.webp": "cbum3.jpeg",
+    "falkes.jpeg": "cbum4.jpeg",
+    "flakescalvo.jpeg": "cbum5.jpeg",
+    "flakesfalkes.jpeg": "cbum6.jpeg",
+    "Logo flakes.jpg": "cbumllogo.jpeg",
+    "flakescima.jpeg": "cbum.png"
 };
 
 botaoImagens.addEventListener("click", () => {
