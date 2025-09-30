@@ -11,7 +11,7 @@ const novasImagens = {
     "falkes.jpeg": "cbum4.jpeg",
     "flakescalvo.jpeg": "cbum5.jpeg",
     "flakesfalkes.jpeg": "cbum6.jpeg",
-    "Logoflakes.jpg": "cbumllogo.jpeg",
+    "Logo flakes.jpg": "cbumllogo.jpeg",
     "flakescima.jpeg": "cbumcima.png"
 };
 
