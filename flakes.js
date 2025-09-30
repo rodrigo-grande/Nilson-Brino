@@ -6,12 +6,12 @@ let trocou = false;
 
 const novasImagens = {
     "flakes.webp": "cbum1.jpeg",
-    "flakes2.webp": "cbum2.jpeg",
-    "flakes3.webp": "cbum3.jpeg",
+    "flakes 2.webp": "cbum2.jpeg",   
+    "flakes 3.webp": "cbum3.jpeg",   
     "falkes.jpeg": "cbum4.jpeg",
     "flakescalvo.jpeg": "cbum5.jpeg",
     "flakesfalkes.jpeg": "cbum6.jpeg",
-    "Logo flakes.jpg": "cbumllogo.jpeg",
+    "Logo flakes.jpg": "cbumllogo.jpeg", 
     "flakescima.jpeg": "cbumcima.png"
 };
 
